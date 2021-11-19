@@ -1,0 +1,19 @@
+schema_type: dataframe
+version: 0.6.5
+columns:
+  column1:
+    pandas_dtype: int
+    nullable: false
+    checks:
+      isin:
+      - 1
+      - 2
+      - 3
+    allow_duplicates: true
+    coerce: false
+    required: true
+    regex: false
+checks: null
+index: null
+coerce: false
+strict: false

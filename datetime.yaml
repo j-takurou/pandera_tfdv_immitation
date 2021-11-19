@@ -1,0 +1,15 @@
+schema_type: dataframe
+version: 0.6.5
+columns:
+  column1:
+    pandas_dtype: datetime64[ns]
+    nullable: false
+    checks: null
+    allow_duplicates: true
+    coerce: false
+    required: true
+    regex: false
+checks: null
+index: null
+coerce: false
+strict: false

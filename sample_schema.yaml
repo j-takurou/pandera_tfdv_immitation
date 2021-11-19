@@ -1,0 +1,38 @@
+schema_type: dataframe
+version: 0.6.5
+columns:
+  column1:
+    pandas_dtype: int
+    nullable: false
+    checks: null
+    allow_duplicates: true
+    coerce: false
+    required: true
+    regex: false
+  column2:
+    pandas_dtype: float64
+    nullable: false
+    checks:
+      less_than: -2.0
+    allow_duplicates: true
+    coerce: false
+    required: true
+    regex: false
+  column3:
+    pandas_dtype: object
+    nullable: false
+    checks:
+      str_startswith: value_
+    allow_duplicates: true
+    coerce: false
+    required: true
+    regex: false
+checks: null
+index:
+- pandas_dtype: int
+  nullable: false
+  checks: null
+  name: null
+  coerce: false
+coerce: true
+strict: true
