@@ -1,5 +1,7 @@
 # pandera_tfdv_immitation
 
+pycon mini Shizuokaにて発表したときに作成したソース管理レポジトリです。[Slide Link](https://docs.google.com/presentation/d/1TWdi62wZLPnpbsPjm8gOH-2E3qWvuJXaagZmCYad8R4/edit?usp=sharing)
+
 - demo_distribution_skew.ipynb
     - カテゴリ変数、数値変数に対して、TFDVが利用している指標に合わせて分布のズレの検知ができないか実験しています。
     - panderaのextension decoratorを利用して、Check functionをカスタム実装しています。
